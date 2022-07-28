@@ -19,7 +19,7 @@ body {
 
 .content {
     width: 500px;
-    height:70%;
+    height:60%;
     background-color: aliceblue;
     border-radius: 5px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
@@ -39,7 +39,7 @@ body {
 
 .selector {
     width: 95%;
-    height: 50%;
+    height: 45%;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -79,12 +79,15 @@ body {
 }
 
 .container-visualizador .hexa{
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 5px 10px;
     font-size: 18px;
 }
 
 .container-visualizador .visualizador {
     width: 95%;
-    height: 90%;
+    height: 85%;
     margin: auto;
     border: 1px solid rgb(159, 159, 159);
     border-radius: 5px;
